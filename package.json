@@ -1,0 +1,35 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack server --config config/webpack.dev.js",
+    "build": "webpack --config config/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "chaojiyang",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "unplugin-auto-import": "^0.13.0",
+    "unplugin-vue-components": "^0.23.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.47",
+    "css-loader": "^6.7.3",
+    "element-plus": "^2.2.29",
+    "image-conversion": "^2.1.1",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "save": "^2.9.0",
+    "style-loader": "^3.3.1",
+    "vant": "^4.0.11",
+    "vue": "^3.2.36",
+    "vue-loader": "^17.0.1"
+  }
+}
